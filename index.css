@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+  height: 100vh;
+  width: 100%;
+  background-image: url(halloween.jpg);
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+nav{
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  padding: 0%;
+}
+nav ul{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 15px;
+  list-style-type: none;
+  margin-right: 100px;
+}
+nav li{
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 28px;
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #f1e396;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration-color: black;
+  margin: 0 0 70px 70px;
+}
+nav li:hover{
+  border-radius: 4px;
+  color: rgb(21, 21, 20);
+  text-shadow: 2px -8px 4px black;
+}
+.git-img{
+height: 50px;
+width: 60px;
+margin-bottom: 100px;
+margin-right: 50px;
+z-index: 1;
+text-shadow:2px -50px 4px white;
+background-color: rgb(245, 221, 154);
+border-radius: 2000px;
+}
+.git-img:hover{
+  border-radius: 800px;
+  background-color: rgb(247, 238, 205);
+  box-shadow: 6px 6px 7px 7px  rgb(9, 9, 9);
+  filter: blur(0.5px);
+}
+.reg{
+  height: 150px;
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(img5.png);
+  background-size: cover;
+  background-position: center;
+  font-size: xx-small;
+  margin-left: 410px;
+  margin-top: 30px;
+}
+.text p{
+  font-weight: 600;
+  font-size: x-large;
+  color: #f1e396;
+
+}
+#hall{
+  text-align: left;
+}
+.regist-1{
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.regist-1 button{
+  font-size: 27px;
+  margin-right: 26px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border-color: rgb(246, 200, 130);
+  box-shadow: 0 0 5px orange,
+  0 0 5px orange;
+  color: rgb(10, 10, 10);
+  font-weight: 700;
+  background-color: rgb(252, 195, 91);
+
+}
+.regist-1 button:hover{
+  box-shadow: 0 0 4px rgb(19, 19, 19),0 0 12px rgb(14, 13, 13),0 0 22px rgb(36, 35, 35), 0 0 45px rgb(20, 20, 19);
+}
+.end{
+  color: #f1e396;
+  font-size: large;
+}
+.end h1{
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 30px;
+  font-size: 40px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons i{
+  font-size: 42px;
+  padding: 0 0 7px;
+  margin: 0 0 30px 30px;
+}
+.icons i:hover{
+  box-shadow: 0 0 10px 10px rgb(247, 238, 191);
+}
